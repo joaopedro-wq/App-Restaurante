@@ -1,4 +1,4 @@
-//Projeto realizado Por: Joao Pedro de Oliveira Bandeira, Matricula: 2016204225.
+
 
 import java.util.Date;
 import java.util.InputMismatchException;
@@ -54,14 +54,13 @@ public class App {
                     System.out.println("Cadastro Garçom: ");
                     System.out.print("Nome garçom: ");
                     String nome = sanner.nextLine();
-                    // System.out.print("Matricula: ");
+                
                     int soma = 100;
                     for (int i = 0; i < list.size(); i++) {
                         soma = soma + 1;
                     }
                     try {
-                        // int mat = sanner.nextInt();
-                        // sanner.nextLine();
+                        
                         garcom a1 = new garcom();
                         a1.setNome(nome);
                         a1.setMatricula(soma);
